@@ -1,11 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!DOCTYPE> 
 <html xmlns="http://www.w3.org/1999/xhtml"> 
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 <title> </title> 
 <link rel="stylesheet" type="text/css" href="css/2.css" />
 <script type="text/javascript" src="fountion.js"> 
-
 </script>  
 </head> 
 <body> 
@@ -17,7 +16,28 @@
 <input type="text" name="numScreen" class="screen" value="0" onfocus="this.blur();" /> 
 </div> 
 <div id="calcu-btn"> 
-
+<ul> 
+<li onclick="command(7)">7</li> 
+<li onclick="command(8)">8</li> 
+<li onclick="command(9)">9</li> 
+<li class="tool" onclick="del()">←</li> 
+<li class="tool" onclick="clearscreen()">C</li> 
+<li onclick="command(4)">4</li> 
+<li onclick="command(5)">5</li> 
+<li onclick="command(6)">6</li> 
+<li class="tool" onclick="times()">×</li> 
+<li class="tool" onclick="divide()">÷</li> 
+<li onclick="command(1)">1</li> 
+<li onclick="command(2)">2</li> 
+<li onclick="command(3)">3</li> 
+<li class="tool" onclick="plus()">+</li> 
+<li class="tool" onclick="minus()">-</li> 
+<li onclick="command(0)">0</li> 
+<li onclick="dzero()">00</li> 
+<li onclick="dot()">.</li> 
+<li class="tool" onclick="persent()">%</li> 
+<li class="tool" onclick="equal()">=</li> 
+</ul> 
 </div> 
 <div id="calcu-foot"> 
 <span id="note"></span> 
