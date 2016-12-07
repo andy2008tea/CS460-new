@@ -1,0 +1,22 @@
+﻿
+
+@{
+    ViewBag.Title = "View1";
+}
+
+<h2>Page4</h2>
+
+
+<p>Let's send form data to the server via POST</p>
+
+<form method="post">
+    <label for="borrow">borrow Amount</label>
+    <input type="number" step="0.01" name="borrow" value="" />
+    <label for="monthrate">Interest Rate</label>
+    <input type="number" step="0.01" name="monthrate" value="" />
+    <label for="length">Term Length</label>
+    <input type="number" name="length" value="" />
+    <input type="submit" value="Enter" />
+</form>
+
+<p>@ViewBag.message</p>

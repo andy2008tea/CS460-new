@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Page 2";
+}
+
+<h2>Page 3</h2>
+
+<p>Let's send form data to the server via POST</p>
+
+<form method="post">
+    <label for="username">Username</label>
+    <input type="text" name="username" value="" />
+    <label for="password">Password</label>
+    <input type="password" name="password" maxlength="100" />
+    <input type="submit" value="Login" />
+</form>
+
+<p>@ViewBag.message</p>
